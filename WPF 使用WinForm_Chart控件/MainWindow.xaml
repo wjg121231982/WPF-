@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF_使用WinForm_Chart控件.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wfi="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+        xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        xmlns:Chr="clr-namespace:System.Windows.Forms.DataVisualization.Charting;assembly=System.Windows.Forms.DataVisualization"
+       Title="MainWindow" Height="1814.254" Width="686.194">
+    <Grid>
+        <StackPanel>
+            <WindowsFormsHost x:Name="mainFGrid" Margin="30">
+                <Chr:Chart x:Name="chartAttMed" Width="10" Height="75" />
+            </WindowsFormsHost>
+            <Button Content="更新" Width="75" Height="25"></Button>
+        </StackPanel>
+
+
+    </Grid>
+
+</Window>
